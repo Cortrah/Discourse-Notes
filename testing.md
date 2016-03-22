@@ -1,6 +1,6 @@
 ## FakeWeb
 
-We use the [FakeWeb](https://github.com/chrisk/fakeweb) gem to fake external web 
+Discourse uses the [FakeWeb](https://github.com/chrisk/fakeweb) gem to fake external web 
 requests.
 For example, check out the specs on `specs/components/oneboxer`.
 
