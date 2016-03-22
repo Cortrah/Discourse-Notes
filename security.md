@@ -10,15 +10,15 @@ Discourse uses the PBKDF2 algorithm to encrypt salted passwords. This algorithm 
 
 ### XSS
 
-The main vector for [XSS](https://en.wikipedia.org/wiki/Cross-site_scripting) attacks is via the post composer, as we allow users to enter Markdown, HTML (a safe subset thereof), and BBCode to format posts.
+The main vector for [XSS](https://en.wikipedia.org/wiki/Cross-site_scripting) attacks is via the post composer, as it allow users to enter Markdown, HTML (a safe subset thereof), and BBCode to format posts.
 
-There are 2 main scenarios we protect against:
+There are 2 main scenarios that are protected against:
 
 1. **Markdown preview invokes an XSS.** This is possibly severe in one specific case: when a forum staff member edits a user's post, seeing the raw markup, where a malicious user may have inserted code to run JavaScript. This code would only show up in the preview, but it would run in the context of a forum staff member, which is *very* bad.
 
 2. **Markdown displayed on the page invokes an XSS.** To protect against client side preview XSS, Discourse uses [Google Caja](https://developers.google.com/caja/) in the preview window.
 
-On the server side we run a whitelist based sanitizer, implemented using the [Sanitize gem](https://github.com/rgrove/sanitize). See the [relevant Discourse code](https://github.com/discourse/discourse/blob/master/lib/pretty_text.rb).
+On the server side they run a whitelist based sanitizer, implemented using the [Sanitize gem](https://github.com/rgrove/sanitize). See the [relevant Discourse code](https://github.com/discourse/discourse/blob/master/lib/pretty_text.rb).
 
 In addition, titles and all other places where non-admins can enter code are protected either using the Handlebars library or standard Rails XSS protection.
 
@@ -40,7 +40,7 @@ If you install via our recommended Docker image in our [install guide][ig], ngin
 
 ### Deployment concerns
 
-We strongly recommend that the various Discourse processes (web server, sidekiq) run under a non-elevated account. This is handled automatically if you install via our recommended Docker image -- see [our install guide][ig] for details.
+They strongly recommend that the various Discourse processes (web server, sidekiq) run under a non-elevated account. This is handled automatically if you install via their recommended Docker image -- see [the install guide][ig] for details.
 
 [ig]: https://github.com/discourse/discourse/blob/master/docs/INSTALL.md
 
