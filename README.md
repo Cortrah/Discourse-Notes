@@ -13,6 +13,7 @@ Discourse is a real world, well engineered, 100% open source project that attemp
 
 I just need a place to organize the information that I gather, even if it's just cutting and pasting from other resources. I'm also going to try and get the local Ruby Brigade users group to work with me as I go through this process in hopes that we can learn more from one another.
 
+I also like how gitbook let's me save my books for my kindle device.
 
 
 
