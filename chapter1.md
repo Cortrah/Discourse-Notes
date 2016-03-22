@@ -1,14 +1,11 @@
 # Development Setup
 
-There are 4 options
-1. Discourse as your first rails app
-2. Discourse with vagrant
-3. Discourse with advanced vagrant
-4. Advanced installation without vagrant.
+There are 3 options
+1. Discourse with vagrant
+2. Discourse with advanced vagrant
+3. Advanced installation without vagrant.
 
-## 1. [Discourse as Your First Rails App](http://blog.discourse.org/2013/04/discourse-as-your-first-rails-app/) blog post 
-
-## 2. Discourse with Vagrant
+## 1. Discourse with Vagrant
 
 The following instructions will automatically download and provision a virtual machine for you to begin hacking
 on Discourse with:
