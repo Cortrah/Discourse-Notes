@@ -30,6 +30,7 @@ I just need a place to organize the information that I gather, even if it's just
 
 I also like how gitbook let's me save my books for my kindle device so that I can read while walking the dog.
 
+Finally even just the process of curating, selecting and editing content is a good learning process that helps you cull down the noise and put together the stuff that you need to remember.
 
 
 
