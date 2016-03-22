@@ -3,7 +3,7 @@
 There are 3 levels
 1. Discourse with vagrant
 2. Discourse with a custom vagrant setup
-3. Advanced installation without vagrant.
+3. Advanced installation without vagrant
 
 ## 1. Discourse with Vagrant
 
