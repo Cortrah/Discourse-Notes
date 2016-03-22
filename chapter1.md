@@ -106,7 +106,7 @@ When you're done working on Discourse, you can shut down Vagrant with:
 vagrant halt
 ```
 
-## 2. Discourse with Advanced Vagrant
+# 2. Discourse with Advanced Vagrant
 
 ## First Steps
 
@@ -131,12 +131,12 @@ vagrant halt
 You should now be able to connect to rails on [http://localhost:3000](http://localhost:3000) - try it out! The seed data includes a pinned topic that explains how to get an admin account, so start there! Happy hacking!
 
 
-# Building your own Vagrant VM
+## Building your own Vagrant VM
 
 Here are the steps we used to create the **[Vagrant Virtual Machine](VAGRANT.md)**. They might be useful if you plan on setting up an environment from scratch on Linux:
 
 
-## Base box
+### Base box
 
 Vagrant version 1.1.2. With this Vagrantfile:
 
@@ -153,7 +153,7 @@ Vagrant version 1.1.2. With this Vagrantfile:
     vagrant up
     vagrant ssh
 
-## Some basic setup:
+### Some basic setup:
 
     sudo su -
     ln -sf /usr/share/zoneinfo/Canada/Eastern /etc/localtime
@@ -161,7 +161,7 @@ Vagrant version 1.1.2. With this Vagrantfile:
     apt-get -yqq install python-software-properties
     apt-get -yqq install vim curl expect debconf-utils git-core build-essential zlib1g-dev libssl-dev openssl libcurl4-openssl-dev libreadline6-dev libpcre3 libpcre3-dev imagemagick
 
-## Unicode
+### Unicode
 
     echo "export LANGUAGE=en_US.UTF-8" >> /etc/bash.bashrc
     echo "export LANG=en_US.UTF-8" >> /etc/bash.bashrc
@@ -173,7 +173,7 @@ Vagrant version 1.1.2. With this Vagrantfile:
     locale-gen en_US.UTF-8
     dpkg-reconfigure locales
 
-## RVM and Ruby
+### RVM and Ruby
 
     apt-get -yqq install libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt-dev autoconf libc6-dev ncurses-dev automake libtool bison subversion pkg-config curl build-essential git
 
@@ -187,7 +187,7 @@ Vagrant version 1.1.2. With this Vagrantfile:
     echo "gem: --no-document" >> /etc/gemrc
     su - vagrant -c "echo 'gem: --no-document' >> ~/.gemrc"
 
-## Postgres
+### Postgres
 
 Configure so that the vagrant user doesn't need to provide username and password.
 
@@ -208,7 +208,7 @@ Edit /etc/postgresql/9.3/main/pg_hba.conf to have this:
     host all all ::1/128 trust
     host all all 0.0.0.0/0 trust # wide-open
 
-## Redis
+### Redis
 
     sudo su -
     mkdir /tmp/redis_install
@@ -223,7 +223,7 @@ Edit /etc/postgresql/9.3/main/pg_hba.conf to have this:
     # Press enter to accept all the defaults
     /etc/init.d/redis_6379 start
 
-## Sending email (SMTP)
+### Sending email (SMTP)
 
 By default, development.rb will attempt to connect locally to send email.
 
