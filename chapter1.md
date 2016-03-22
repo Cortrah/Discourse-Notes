@@ -12,7 +12,7 @@ on Discourse with:
 
 ### Getting Started
 
-1. Install Git: http://git-scm.com/downloads (or [GitHub for Windows](http://windows.github.com/) if you want a GUI)
+1. Install Git: http://git-scm.com/downloads 
 2. Install VirtualBox: https://www.virtualbox.org/wiki/Downloads
 3. Install Vagrant: http://www.vagrantup.com/ (We require Vagrant 1.7.2 or later)
 4. Open a terminal
@@ -37,11 +37,6 @@ vagrant ssh
 ```
 
 The discourse code is found in the /vagrant directory in the image.
-
-
-You may use this client to connect to the VM by using ```vagrant/vagrant``` as your username/password, or by [using
-PuTTYGen to import the insecure_private_key file](http://jason.sharonandjason.com/key_based_putty_logins_mini_how_to.htm)
-(mentioned above) into a PuTTY profile to quickly access your VM.
 
 ### Keeping your VM up to date (and first install)
 
