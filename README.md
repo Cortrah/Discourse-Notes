@@ -10,19 +10,13 @@ Discourse is a real world, well engineered, 100% open source project that attemp
 
 By hacking Discourse it means that you also have good examples of
 
-A Ruby on Rails Api
-
-An Ember front end Application
-
-A Postgres database
-
-A Redis cache and transient data store
-
-Vagrant 
-
-Docker 
-
-Sidekiq
+* A Ruby on Rails Api
+* An Ember front end Application
+* A Postgres database
+* A Redis cache and transient data store
+* Vagrant 
+* Docker 
+* Sidekiq
 
 # Why a Book?
 
