@@ -6,8 +6,8 @@ For example, check out the specs on `specs/components/oneboxer`.
 
 This has several advantages to making real requests:
 
-* We freeze the expected response from the remote server.
-* We don't need a network connection to run the specs.
+* It freezes the expected response from the remote server.
+* It doen't need a network connection to run the specs.
 * It's faster.
 
 So, if you need to define a spec that makes a web request, you'll have to record 
@@ -19,6 +19,6 @@ this.
 
 ### Recording responses
 
-To record the actual response from the remote server, you can use curl and save the response to a file. We use the `-i` option to include headers in the output
+To record the actual response from the remote server, you can use curl and save the response to a file. They use the `-i` option to include headers in the output
 
     curl -i http://en.m.wikipedia.org/wiki/Ruby > wikipedia.response
