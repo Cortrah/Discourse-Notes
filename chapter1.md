@@ -108,10 +108,6 @@ vagrant halt
 
 ## 2. Discourse with Advanced Vagrant
 
-This guide is aimed at advanced Rails developers who have installed their own Rails apps before. If you are new to Rails, you are likely much better off with our **[Discourse Vagrant Developer Guide](VAGRANT.md)**.
-
-Note: If you are developing on a Mac, you will probably want to look at [these instructions](DEVELOPMENT-OSX-NATIVE.md) as well.
-
 ## First Steps
 
 1. Install and configure PostgreSQL 9.3+.
