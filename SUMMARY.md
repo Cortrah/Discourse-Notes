@@ -10,6 +10,7 @@
    * [Part Two Plugin Outlets](part_two_plugin_outlets.md)
    * [Part Three Custom Settings](part_three_custom_settings.md)
    * [Part Four Git](part_4_git.md)
+   * Part Five Admin Interfaces
 * [User Documentation Links](user_documentation.md)
 * [Security Notes](security.md)
 * [Testing Notes](testing.md)
