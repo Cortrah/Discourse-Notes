@@ -2,15 +2,15 @@
 
 After makeing changes and stopping the server
 
-## possibly remove /tmp
+### possibly remove /tmp
 
     sudo rm -rf /tmp 
 
-## Install any needed gems
+### Install any needed gems
 
     bundle install 
 
-## Doublecheck Mailcatcher
+### Doublecheck Mailcatcher
 
 ensure that config/environments/development.rb has these settings before running your migrations and tests.
 
@@ -25,17 +25,17 @@ Then go to http://127.0.0.1:1080 to see any caught mail
 
     mailcatcher --help (if need be)
 
-## Prepare your database
+### Prepare your database
 
     rake db:migrate
     rake db:test:prepare
     rake db:seed_fu
 
-## Now, test it out!
+### Now, test it out!
 
     bundle exec rspec
 
-## Resetting the environmnet variables
+### Resetting the environmnet variables
 
 Reset the environment as a possible solution to failed rspec tests.
 These commands assume an empty Discourse database, and an otherwise empty redis environment. CAREFUL HERE
@@ -50,7 +50,7 @@ If you are running the software locally then
     
 Will run the qunit tests
 
-## FakeWeb
+### FakeWeb
 
 Discourse uses the [FakeWeb](https://github.com/chrisk/fakeweb) gem to fake external web 
 requests.
@@ -69,7 +69,7 @@ URI of your request.
 Check out `spec/components/oneboxer/amazon_onebox_spec.rb` for an example on 
 this.
 
-## Recording responses
+### Recording responses
 
 To record the actual response from the remote server, you can use curl and save the response to a file. They use the `-i` option to include headers in the output
 
