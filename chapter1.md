@@ -5,6 +5,8 @@ There are 3 levels of instructions to choose from
 2. Discourse with a custom vagrant setup
 3. Installation from script (osx only)
 
+I've had good luck with 1 on two computers, havn't tried 2 and have had many failed tests with #3 that I'm working through and learning from.
+
 ## 1. Discourse with Vagrant
 
 The following instructions will automatically download and provision a virtual machine for you to begin hacking
