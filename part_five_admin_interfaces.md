@@ -83,16 +83,16 @@ If you haven't read the Ember Guides on Controllers15 now is a good time to do s
 
 Create the following file:
 
-assets/javascripts/discourse/controllers/admin-plugins-purple-tentacle.js.es6
+_assets/javascripts/discourse/controllers/admin-plugins-purple-tentacle.js.es6_
 
-export default Ember.Controller.extend({
-  tentacleVisible: false,
+    export default Ember.Controller.extend({
+      tentacleVisible: false,
 
-  actions: {
-    showTentacle() {
-      this.set('tentacleVisible', true);
-    }
-  }
-});
+      actions: {
+        showTentacle() {
+          this.set('tentacleVisible', true);
+        }
+      }
+    });
 
 And now when we refresh our page, clicking the button shows our animated character!
