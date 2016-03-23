@@ -76,8 +76,8 @@ If you look at your developer console, you should see an error that provides a c
 
 Ah yes, the reason is in our handlebars template we are depending on a couple of things:
 
-    That when the user clicks the button, showTentacle will be called.
-    showTentacle should set the property tentacleVisible to true so that the image shows up.
+1. That when the user clicks the button, showTentacle will be called.
+2. showTentacle should set the property tentacleVisible to true so that the image shows up.
 
 If you haven't read the Ember Guides on Controllers15 now is a good time to do so, because we'll implement a controller for our purple-tentacle template that will handle this logic.
 
