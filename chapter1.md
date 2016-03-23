@@ -1,9 +1,9 @@
 # Development Setup
 
-There are 3 levels
+There are 3 levels of instructions to choose from
 1. Discourse with vagrant
 2. Discourse with a custom vagrant setup
-3. Advanced installation without vagrant
+3. Installation without vagrant (osx only)
 
 ## 1. Discourse with Vagrant
 
@@ -106,7 +106,7 @@ When you're done working on Discourse, you can shut down Vagrant with:
 vagrant halt
 ```
 
-# 2. Discourse with Advanced Vagrant
+# 2. Discourse with Customized Vagrant
 
 ## First Steps
 
@@ -251,7 +251,7 @@ Needed to run javascript tests.
     ln -s /usr/local/share/phantomjs-1.8.2-linux-i686/bin/phantomjs /usr/local/bin/phantomjs
 
 
-# 3. Advanced Installation without Vagrant
+# 3. Installation without Vagrant (osx only)
 
 Obviously, if you **already** develop Ruby on OS X, a lot of this will be redundant, because you'll have already done it, or something like it. If that's the case, you may well be able to just install Ruby 2.0 using RVM and get started! Discourse has enough dependencies, however (note: not a criticism!) that there's a good chance you'll find **something** else in this document that's useful for getting your Discourse development started!
 
