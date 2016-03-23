@@ -36,7 +36,7 @@ I tried to write the test in a way that is clear, but it might be a little confu
 
 The first line of importance is visit("/admin/plugins/purple-tentacle");. This tells our test to navigate to that URL in our application. That URL was the one that displays the tentacle.
 
-The next bit andThen() is a piece of code that will execute after the page has fully loaded. This might be a little confusing if you've not done much asynchronous programming before. Browser Applications like Discourse are built using javascript promises2. Often, performing an action means that the Javascript application will have to contact the server and wait for a reply.
+The next bit andThen() is a piece of code that will execute after the page has fully loaded. This might be a little confusing if you've not done much asynchronous programming before. Browser Applications like Discourse are built using javascript promises. Often, performing an action means that the Javascript application will have to contact the server and wait for a reply.
 
 Visiting a URL almost always involves fetching data from a server, so in Ember all requests are considered asynchronous. That means that we need to write some code that will be called when the routing is finished and ember has loaded the URL. That's where andThen() comes in.
 
