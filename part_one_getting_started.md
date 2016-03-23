@@ -1,4 +1,5 @@
 # Part One Getting Started
+
 ### plugin.rb
 When Discourse starts up, it looks in the plugins directory for subdirectories containing a plugin.rb file. The plugin.rb file has two purposes: it is the manifest for your plugin with the required information about your plugin including: its name, contact information and a description. The second purpose is to initialize any ruby code necessary to run your plugin.
 
