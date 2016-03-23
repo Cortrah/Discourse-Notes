@@ -6,7 +6,7 @@
 * [Running Locally](running_locally.md)
 * [Admin Quick Start](admin_quick_start.md)
 * [Plug In Development](plug_in_development.md)
-* [User Documentation](user_documentation.md)
+* [User Documentation Links](user_documentation.md)
 * [Security](security.md)
 * [Testing](testing.md)
 
