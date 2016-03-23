@@ -1,15 +1,16 @@
 # Part Two Plugin Outlets
 
-Getting Started: Handlebars Templates
+### Getting Started: Handlebars Templates
 
 Discourse's client application is written using the Ember.js Javascript framework. Ember uses Handlebars54 for all HTML templates. There's a great introduction to the templating language at that link, so definitely read it thoroughly.
-The Problem: Adding elements to the Discourse User Interface
+
+### The Problem: Adding elements to the Discourse User Interface
 
 Many plugins need to add and extend the Discourse web interface. We provide a mechanism to do this called plugin outlets in handlebars templates.
 
 If you browse the discourse handlebars templates, you'll often see the following markup:
 
-{{plugin-outlet "edit-topic"}}
+    {{plugin-outlet "edit-topic"}}
 
 This is declaring a plugin outlet called "edit-topic". It's an extension point in the template that plugin authors can leverage to add their own handlebars markup.
 
@@ -17,10 +18,11 @@ When authoring your plugin, look in the discourse handlebars templates (in .hbs 
 
 If you want to see some of the places where plugin outlets exist, you can run the following command if you're on OSX or Linux:
 
-$ git grep "plugin-outlet" -- "*.hbs"
+    $ git grep "plugin-outlet" -- "*.hbs"
 
 @Mittineague has also written a plugin68 to show their locations. I have to admit I have not tried it out myself so I'm not sure if it works, but it looks like it could be useful!
-Connecting to a Plugin Outlet
+
+### Connecting to a Plugin Outlet
 
 Once you've found the plugin outlet you want to add to, you have to write a connector for it. A connector is really just a handlebars template whose filename includes connectors/<outlet name> in it.
 
