@@ -259,6 +259,13 @@ Obviously, if you **already** develop Ruby on OS X, a lot of this will be redund
 
 If you don't already have a Ruby environment that's tuned to your liking, you can do most of this set up in just a few steps:
 
+Note that if you have postres or phantomjs installed in
+usr/local/var/postgres and
+rm 'usr/local/bin/phantomjs' or just overwrite the symlink with
+brew link --overwrite phantomjs
+
+You'll need to remove or change those directory names or the script will fail rather than overwrite them.
+
 1. Install XCode and/or the XCode Command Line Tools from [Apple's developer site](https://developer.apple.com/downloads/index.action). This should also install Git.
 2. Clone the Discourse repo and cd into it.
 3. Run `script/osx_dev`.
