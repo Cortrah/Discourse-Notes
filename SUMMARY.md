@@ -8,5 +8,5 @@
 * [User Documentation](user_documentation.md)
 * [Security](security.md)
 * [Testing](testing.md)
-* Admin Quick Start
+* [Admin Quick Start](admin_quick_start.md)
 
