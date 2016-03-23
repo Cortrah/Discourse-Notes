@@ -503,7 +503,7 @@ ensure that config/environments/development.rb has these settings before running
 
 All specs should pass
 
-I get many failures which I'm working through and learning from.
+I get many failures with this script based build, which I'm working through and learning from.
 
 ### Deal with any problems which arise.
 
