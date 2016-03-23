@@ -11,7 +11,7 @@
    * [Part Three Custom Settings](part_three_custom_settings.md)
    * [Part Four Git](part_4_git.md)
    * [Part Five Admin Interfaces](part_five_admin_interfaces.md)
-   * Part Six Aceptance Tests
+   * [Part Six Aceptance Tests](part_six_aceptance_tests.md)
 * [User Documentation Links](user_documentation.md)
 * [Security Notes](security.md)
 * [Testing Notes](testing.md)
