@@ -8,7 +8,7 @@ Assuming you have a development environment set up, if you visit the http://loca
 
 First, make sure you have the latest version of Discourse checked out. Being able to run Acceptance tests from plugins is a relatively new feature, and if you don't check out the latest version your tests won't show up.
 
-For this article I am going to write an acceptance test for the purple-tentacle2 plugin that we authored in part 517 of this series.
+For this article I am going to write an acceptance test for the purple-tentacle2 plugin that we authored in part 5 of this series.
 
 Adding an acceptance test is as easy as adding one file to your plugin. Create the following:
 
