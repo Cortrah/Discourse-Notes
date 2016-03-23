@@ -7,6 +7,6 @@
 * [Admin Quick Start](admin_quick_start.md)
 * [Plug In Development](plug_in_development.md)
 * [User Documentation Links](user_documentation.md)
-* [Security](security.md)
+* [Security Notes](security.md)
 * [Testing Notes](testing.md)
 
