@@ -50,5 +50,3 @@ Now if you restart your rails server, you should see "alert boxes are annoying!"
 3. The name has to be unique, so I just called it alert.
 
 4. The initialize() function is called when the application loads. In our case, all it does is execute our alert() code.
-
-You're now an official Discourse plugin developer! 
