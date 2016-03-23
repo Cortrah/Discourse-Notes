@@ -1,4 +1,4 @@
-# Part 4 Git
+# Part Four Git
 
 ### Creating your Git Repo
 
