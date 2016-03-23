@@ -30,6 +30,8 @@ and finally bring up rails
 
 now the app should be up at http://localhost:4000
 
+in theory, you should be able to run the tests at http://localhost:3000, but that doesn't work for me yet.
+
 when developing if your plugin changes don't get noticed you may need to delete the tmp directory
   
     rm -rf /tmp
