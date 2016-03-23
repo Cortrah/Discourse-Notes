@@ -5,7 +5,7 @@ There are 3 levels of instructions to choose from
 2. Discourse with a custom vagrant setup
 3. Installation from script (osx only)
 
-I've had good luck with 1 on two computers, havn't tried 2 and have had many failed tests with #3 on one computer that I'm working through and learning from.
+I've had good luck with #1 on two computers, havn't tried #2 yet and have had many failed tests with #3 on one computer that I'm working through and learning from.
 
 ## 1. Discourse with Vagrant
 
