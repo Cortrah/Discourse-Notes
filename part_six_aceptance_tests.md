@@ -1,6 +1,6 @@
 # Part Six Aceptance Tests
 
-Did you know that Discourse has two large test suites for its code base? On the server side, our Ruby code has a test suite that uses rspec. For the browser application, we have a qunit5 suite that has ember-testing included.
+Did you know that Discourse has two large test suites for its code base? On the server side, our Ruby code has a test suite that uses rspec. For the browser application, we have a qunit suite that has ember-testing included.
 
 Assuming you have a development environment set up, if you visit the http://localhost:3000/qunit URL you will start running the Javascript test suite in your browser. One fun aspect is that you can see it testing the application in a miniature window in the bottom right corner:
 
@@ -8,7 +8,7 @@ Assuming you have a development environment set up, if you visit the http://loca
 
 First, make sure you have the latest version of Discourse checked out. Being able to run Acceptance tests from plugins is a relatively new feature, and if you don't check out the latest version your tests won't show up.
 
-For this article I am going to write an acceptance test for the purple-tentacle2 plugin that we authored in part 5 of this series.
+For this article I am going to write an acceptance test for the purple-tentacle plugin that we authored in part 5 of this series.
 
 Adding an acceptance test is as easy as adding one file to your plugin. Create the following:
 
@@ -32,7 +32,7 @@ _test/javascripts/acceptance/purple-tentacle-test.js.es6_
       });
     });
 
-I tried to write the test in a way that is clear, but it might be a little confusing if you've never written an acceptance test before. I highly recommend that you read the ember docs13 on acceptance testing as they have a lot of great information.
+I tried to write the test in a way that is clear, but it might be a little confusing if you've never written an acceptance test before. I highly recommend that you read the ember docs on acceptance testing as they have a lot of great information.
 
 The first line of importance is visit("/admin/plugins/purple-tentacle");. This tells our test to navigate to that URL in our application. That URL was the one that displays the tentacle.
 
