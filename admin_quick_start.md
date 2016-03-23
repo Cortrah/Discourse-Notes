@@ -18,7 +18,7 @@ If you go to this address you'll log in as eviltrout which you can use to grant 
 ### Another way to create an Admin User (untested)
 
     bash
-    RAILS_ENV=development bundle exec rails c
+    RAILS_ENV=production bundle exec rails c
     > u = User.first
     > u.admin = true
     > u.save
