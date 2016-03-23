@@ -40,4 +40,14 @@ when done
     
     exit
     vagrant halt
+    
+    
+If running the script based install just go to the root discourse directory and 
 
+    rails server -b 0.0.0.0 -p 3000 -e development
+    
+Admin is at /admin    
+    
+To log in as eviltrout and do admin stuff there is a hardcoded url
+
+    
