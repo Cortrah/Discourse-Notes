@@ -503,6 +503,8 @@ ensure that config/environments/development.rb has these settings before running
 
 All specs should pass
 
+I get many failures which I'm working through and learning from.
+
 ### Deal with any problems which arise.
 
 Reset the environment as a possible solution to failed rspec tests.
