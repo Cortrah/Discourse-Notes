@@ -1,9 +1,41 @@
 # Testing Notes
 
-From the development directory you run the tests with
+After makeing changes and stopping the server
+
+### possibly remove /tmp
 
     
 
+### Install any needed gems
+
+    bundle install 
+
+### Doublecheck Mailcatcher
+
+ensure that config/environments/development.rb has these settings before running your migrations and tests.
+
+    config.action_mailer.delivery_method = :smtp
+    config.action_mailer.smtp_settings = { address: "localhost", port: 1025 }
+
+
+### Prepare your database
+
+    rake db:migrate
+    rake db:test:prepare
+    rake db:seed_fu
+
+## Now, test it out!
+
+    bundle exec rspec
+
+### Resetting the environmnet variables
+
+Reset the environment as a possible solution to failed rspec tests.
+These commands assume an empty Discourse database, and an otherwise empty redis environment. CAREFUL HERE
+
+    RAILS_ENV=test bundle exec rake db:drop db:create db:migrate
+    redis-cli flushall
+    bundle exec rspec # re-running to see if tests pass
 
 If you are running the software locally then 
 
