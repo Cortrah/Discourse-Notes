@@ -6,7 +6,7 @@ This book is half owners manual and half reference guide for hacking the Discour
 
 I've been developing client side software for twenty years now. I've tried a number of times to delve into the server side, but there are a lot of different concerns on the server side than what I'm used to. And I've been pretty disappointed with the quality of instructional materials on how to write server side software. Most material tends to be tutorials that regurgitate toy examples that focus on basic language syntax that is easy to figure out. Instead they don't deal with real api design, testing, security, database issues, caching, hosting or maintenance in any useful way. Faced with that continual disappointment, I decided to go back to the basics and find some source code to read.
 
-Discourse is a real world, well engineered, 100% open source project that attempts to address some high level problems with online discussion. They have good tests, a postgres database and both client and server software that is written with modern practices. It certainly has it's flaws and technical or historical baggage as anything does. But I think that if I get to know this code intimately, warts and all, I'll learn something real.
+Discourse is a real world, well engineered, 100% open source project that attempts to address some high level problems with online discussion. They have many tests, a postgres database and both client and server software that is written with modern practices. It certainly has it's flaws and technical or historical baggage as anything does. But I think that if I get to know this code intimately, warts and all, I'll learn something real.
 
 By hacking Discourse it means that you also have good examples of
 
@@ -17,6 +17,10 @@ By hacking Discourse it means that you also have good examples of
 * Vagrant 
 * Docker 
 * Sidekiq
+
+_As a product_
+
+As a product discourse discourse is a good piece of modern software that one can use to host small communities of a few hundred users with a 20 dollar a month Digital Ocean account. Setup is easy, many customization options are included in the admin panel and as it is 100% (GNU GPL) open source, customization is essentially unbounded.
 
 # Why a Book?
 
