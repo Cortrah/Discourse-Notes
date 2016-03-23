@@ -48,7 +48,7 @@ Once those tests pass it's time to test the interaction. The next command is cli
 
 Finally, we have another andThen function to wait until whatever processing happens when the button is clicked, and then makes sure that the purple tentacle is present.
 
-Not too bad is it? You can try the test yourself by visiting http://localhost:3000/qunit?module=Acceptance%3A%20Purple%20Tentacle on your development machine. You should very quickly see the purtple tentacle appear and all tests will pass.
+Not too bad is it? You can try the test yourself by visiting http://localhost:3000/qunit?module=Acceptance%3A%20Purple%20Tentacle on your development machine. You should very quickly see the purple tentacle appear and all tests will pass.
 
 ### Where to go from here
 
