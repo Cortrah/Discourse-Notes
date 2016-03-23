@@ -28,24 +28,25 @@ Once you've found the plugin outlet you want to add to, you have to write a conn
 
 For example, if your handlebars template has:
 
-{{plugin-outlet "evil-trout"}}
+    {{plugin-outlet "evil-trout"}}
 
 Then any handlebars files you create in the connectors/evil-trout directory
 will automatically be appended. So if you created the file:
 
-plugins/hello/assets/javascripts/discourse/templates/connectors/evil-trout/hello.hbs
+    plugins/hello/assets/javascripts/discourse/templates/connectors/evil-trout/hello.hbs
 
 With the contents:
 
-<b>Hello World</b>
+    <b>Hello World</b>
 
 Discourse would insert <b>Hello World</b> at that point in the template.
 
 Note that we called the file hello.hbs -- The final part of the filename does not matter, but it must be unique across every plugin. It's useful to name it something descriptive of what you are extending it to do. This will make debugging easier in the future.
-Troubleshooting
 
-    Double check the name of the connector and make sure it matches the plugin name perfectly.
+### Troubleshooting
 
-    When in doubt, rm -rf tmp and start your development server again.
+* Double check the name of the connector and make sure it matches the plugin name perfectly.
+
+* When in doubt, rm -rf tmp and start your development server again.
 
 
