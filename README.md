@@ -18,9 +18,9 @@ By hacking Discourse it means that you also have good examples of
 * Docker 
 * Sidekiq
 
-_As a product_
+**As a product**
 
-As a product discourse discourse is a good piece of modern software that one can use to host small communities of a few hundred users with a 20 dollar a month Digital Ocean account. Setup is easy, many customization options are included in the admin panel and as it is 100% (GNU GPL) open source, customization is essentially unbounded.
+As a product discourse is a good piece of modern software that one can use to host small communities of a few hundred users with a 20 dollar a month Digital Ocean account. Setup is easy, many customization options are included in the admin panel and as it is 100% (GNU GPL) open source, customization is essentially unbounded. The only other forum software that I know of which works well on mobile devices is NodeBB and while that looks promising as well, the Discourse developers have put a lot of thought into the social aspects of their design as well as the technical.
 
 # Why a Book?
 
