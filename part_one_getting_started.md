@@ -32,7 +32,7 @@ Right now your plugin doesn't do anything. Let's add a javascript file that will
 
 Create the following file:
 
-plugins/basic-plugin/assets/javascripts/discourse/initializers/alert.js.es6
+_plugins/basic-plugin/assets/javascripts/discourse/initializers/alert.js.es6_
 
     export default {
       name: 'alert',
@@ -43,12 +43,12 @@ plugins/basic-plugin/assets/javascripts/discourse/initializers/alert.js.es6
 
 Now if you restart your rails server, you should see "alert boxes are annoying!" appear on the screen. Let's step through how this worked:
 
-    Javascript files placed in assets/javascripts/discourse/initializers are executed automatically when the Discourse application loads up.
+1. Javascript files placed in assets/javascripts/discourse/initializers are executed automatically when the Discourse application loads up.
 
-    This particular file exports one object, which has a name and an initialize function.
+2. This particular file exports one object, which has a name and an initialize function.
 
-    The name has to be unique, so I just called it alert.
+3. The name has to be unique, so I just called it alert.
 
-    The initialize() function is called when the application loads. In our case, all it does is execute our alert() code.
+4. The initialize() function is called when the application loads. In our case, all it does is execute our alert() code.
 
 You're now an official Discourse plugin developer! 
