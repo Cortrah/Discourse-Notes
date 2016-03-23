@@ -1,5 +1,16 @@
 # Testing Notes
 
+From the development directory you run the tests with
+
+    
+
+
+If you are running the software locally then 
+
+    http://localhost:3000/qunit
+    
+Will run the qunit tests
+
 ## FakeWeb
 
 Discourse uses the [FakeWeb](https://github.com/chrisk/fakeweb) gem to fake external web 
