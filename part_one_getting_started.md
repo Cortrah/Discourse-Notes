@@ -31,14 +31,15 @@ Congratulations, you just created your first plugin!
 Right now your plugin doesn't do anything. Let's add a javascript file that will pop up an alert box when discourse loads. This will be super annoying to any user and is not recommended as an actual plugin, but will show how to insert Javascript into our running application.
 
 Create the following file:
+
 plugins/basic-plugin/assets/javascripts/discourse/initializers/alert.js.es6
 
-export default {
-  name: 'alert',
-  initialize() {
-    alert('alert boxes are annoying!');
-  }
-};
+    export default {
+      name: 'alert',
+      initialize() {
+        alert('alert boxes are annoying!');
+      }
+    };
 
 Now if you restart your rails server, you should see "alert boxes are annoying!" appear on the screen. Let's step through how this worked:
 
