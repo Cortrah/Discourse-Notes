@@ -47,7 +47,16 @@ when done
     rails server -b 0.0.0.0 -p 3000 -e development
     
 Admin is at /admin    
-    
-To log in as eviltrout and do admin stuff there is a hardcoded url
 
+### Evil Backdoor
+If you go to this address you'll log in as eviltrout which you can use to grant your own user admin permissions.
+
+    http://localhost:4000/session/eviltrout/become
     
+### Another way to create an Admin User (untested)
+
+    bash
+    RAILS_ENV=development bundle exec rails c
+    > u = User.first
+    > u.admin = true
+    > u.save
