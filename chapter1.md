@@ -276,6 +276,7 @@ brew link --overwrite phantomjs
 Of course, it is good to understand what the script is doing and why. The rest of this guide goes through what's happening.
 
 After running the script run 
+
     bundle install
   
 From the root of the discourse directory and continue on from there below
