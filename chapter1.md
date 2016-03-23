@@ -483,6 +483,14 @@ If you've stuck to all the defaults above, the default `discourse.conf` and `red
 
     bundle install # Yes, this DOES take a while. No, it's not really cloning all of rubygems :-)
 
+### Doublecheck Mailcatcher
+
+ensure that config/environments/development.rb has
+
+    config.action_mailer.delivery_method = :smtp
+    config.action_mailer.smtp_settings = { address: "localhost", port: 1025 }
+
+
 ### Prepare your database
 
     rake db:migrate
