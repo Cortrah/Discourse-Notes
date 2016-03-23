@@ -8,7 +8,7 @@
 * [Plug In Development](plug_in_development.md)
    * [Part One Getting Started](part_one_getting_started.md)
    * [Part Two Plugin Outlets](part_two_plugin_outlets.md)
-   * Part Three Custom Settings
+   * [Part Three Custom Settings](part_three_custom_settings.md)
 * [User Documentation Links](user_documentation.md)
 * [Security Notes](security.md)
 * [Testing Notes](testing.md)
