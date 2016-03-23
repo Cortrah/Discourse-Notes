@@ -7,5 +7,5 @@
 * [User Documentation](user_documentation.md)
 * [Security](security.md)
 * [Testing](testing.md)
-* Running Locally 
+* [Running Locally](running_locally.md)
 
