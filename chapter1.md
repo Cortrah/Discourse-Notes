@@ -485,7 +485,7 @@ If you've stuck to all the defaults above, the default `discourse.conf` and `red
 
 ### Doublecheck Mailcatcher
 
-ensure that config/environments/development.rb has
+ensure that config/environments/development.rb has these settings before running your migrations and tests.
 
     config.action_mailer.delivery_method = :smtp
     config.action_mailer.smtp_settings = { address: "localhost", port: 1025 }
