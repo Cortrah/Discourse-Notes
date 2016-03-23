@@ -4,7 +4,7 @@ After makeing changes and stopping the server
 
 ### possibly remove /tmp
 
-    
+    sudo rm -rf /tmp 
 
 ### Install any needed gems
 
@@ -17,6 +17,13 @@ ensure that config/environments/development.rb has these settings before running
     config.action_mailer.delivery_method = :smtp
     config.action_mailer.smtp_settings = { address: "localhost", port: 1025 }
 
+Starting mailcatcher is from the command line
+
+    mailcatcher
+    
+Then go to http://127.0.0.1:1080 to see any caught mail
+
+    mailcatcher --help (if need be)
 
 ### Prepare your database
 
