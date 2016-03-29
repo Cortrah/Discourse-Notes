@@ -238,6 +238,14 @@ ensure that config/environments/development.rb has these settings before running
     config.action_mailer.smtp_settings = { address: "localhost", port: 1025 }
 
 
+### Be sure to start mailcatcher redis and sidekiq
+
+    redis-server
+    mailcatcher
+    bundle exec sidekiq
+    bundle exec rails server
+
+
 ### Prepare your database
 
     rake db:migrate
