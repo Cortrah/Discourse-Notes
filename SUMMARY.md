@@ -4,6 +4,7 @@
 * [Mail Catcher](mail_catcher.md)
 * [Developer Setup](developer_setup.md)
    * [Quick Start with Vagrant](quick_start_with_vagrant.md)
+   * Custom Vagrant Setup
 * [Running Locally](running_locally.md)
 * [Admin Quick Start](admin_quick_start.md)
 * [Plug In Development](plug_in_development.md)
