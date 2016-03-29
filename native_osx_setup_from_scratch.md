@@ -20,6 +20,15 @@ brew link --overwrite phantomjs
 3. Run `script/osx_dev`.
 4. Review `log/osx_dev.log` to make sure everything finished successfully.
 
+1. Install and configure PostgreSQL 9.3+.
+  1. Run `postgres -V` to see if you already have it.
+  1. Make sure that the server's messages language is English; this is [required](https://github.com/rails/rails/blob/3006c59bc7a50c925f6b744447f1d94533a64241/activerecord/lib/active_record/connection_adapters/postgresql_adapter.rb#L1140) by the ActiveRecord Postgres adapter.
+2. Install and configure Redis 2.8.12+.
+  1. Run `redis-server -v` to see if you already have it.
+3. Install ImageMagick
+4. Install libxml2, libpq-dev, g++, gifsicle, libjpeg-progs and make?
+5. Install Ruby 2.1.3 and Bundler.
+
 Of course, it is good to understand what the script is doing and why. The rest of this guide goes through what's happening.
 
 After running the script run 
