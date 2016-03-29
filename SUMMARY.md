@@ -9,7 +9,7 @@
    * [Part One Getting Started](part_one_getting_started.md)
    * [Part Two Plugin Outlets](part_two_plugin_outlets.md)
    * [Part Three Custom Settings](part_three_custom_settings.md)
-   * [Part Four Git](partfour_git.md)
+   * [Part Four Git](part_four_git.md)
    * [Part Five Admin Interfaces](part_five_admin_interfaces.md)
    * [Part Six Aceptance Tests](part_six_aceptance_tests.md)
 * [User Documentation Links](user_documentation.md)
