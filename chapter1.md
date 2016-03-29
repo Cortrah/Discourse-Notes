@@ -1,4 +1,4 @@
-# Development Setup
+# Developer Setup
 
 There are 3 levels of instructions to choose from
 1. Discourse with vagrant
