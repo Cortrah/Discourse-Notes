@@ -253,6 +253,14 @@ ensure that config/environments/development.rb has these settings before running
     mailcatcher
     bundle exec sidekiq
     bundle exec rails server
+    
+Now you can register a user, catch the email link with mailcatcher
+and promote that user to an admin with    
+
+    rails console
+    u = User.last
+    u.admin = true
+    u.save
 
 
 ### Prepare your database
