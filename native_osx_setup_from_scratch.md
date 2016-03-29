@@ -6,7 +6,7 @@ Obviously, if you **already** develop Ruby on OS X, a lot of this will be redund
 
 If you don't already have a Ruby environment that's tuned to your liking, you can do most of this set up in just a few steps:
 
-Note that if you have postres installed in
+Note that if you have postgres installed in
 usr/local/var/postgres
 
 You'll need to remove or change that directory names or the script will fail 
