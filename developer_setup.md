@@ -96,3 +96,4 @@ Mailcatcher is already installed in the vm, and there's an alias to launch it:
 
 ```
 mailcatcher --http-ip=0.0.0.0
+
