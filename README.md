@@ -1,4 +1,4 @@
-# Discourse Workshop
+# Discourse Notes
 
 This book is half owners manual and half reference guide for hacking the Discourse open source forum software.
 
