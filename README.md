@@ -50,9 +50,6 @@ Finally even just the process of curating, selecting and editing content is a go
 * [Testing Notes](testing.md)
 
 
-
-
-
  *(Where Facebook, Google and Apple are Heather, Heather and Heather of the movie "Heathers")
 
 
