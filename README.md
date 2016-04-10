@@ -30,7 +30,6 @@ Finally even just the process of curating, selecting and editing content is a go
 
 # Summary
 
-* [Introduction](README.md)
 * [Mail Catcher](mail_catcher.md)
 * [Developer Setup](developer_setup.md)
    * [Quick Start with Vagrant](quick_start_with_vagrant.md)
