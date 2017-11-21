@@ -14,6 +14,10 @@ on Discourse with:
 
 ### Getting Started
 
+Since I am using it on the ssd remember 
+
+cd /Volumes/Turnstyles
+
 1. Install Git: http://git-scm.com/downloads 
 2. Install VirtualBox: https://www.virtualbox.org/wiki/Downloads
 3. Install Vagrant: http://www.vagrantup.com/ (We require Vagrant 1.7.2 or later)
