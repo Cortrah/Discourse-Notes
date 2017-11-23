@@ -10,19 +10,6 @@ As an admin you have total control over this Discourse instance. Exercise your a
 
 You can also access it via the "hamburger" <kbd>☰</kbd> menu in the upper right: Admin functions are generally marked with the wrench :wrench:  icon, so look for that.
 
-### Evil Backdoor
-If you go to this address you'll log in as eviltrout which you can use to grant your own user admin permissions.
-
-    http://localhost:4000/session/eviltrout/become
-    
-### Another way to create an Admin User (untested)
-
-    bash
-    RAILS_ENV=production bundle exec rails c
-    > u = User.first
-    > u.admin = true
-    > u.save
-
 ### Enter Required Settings
 
 Go to the [Required tab](/admin/site_settings/category/required) of the site settings and enter all the required fields. **Until you set these required fields, _your Discourse is broken!_** Go ahead and do that now.

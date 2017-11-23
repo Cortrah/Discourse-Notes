@@ -2,7 +2,17 @@
 
 ## If running the vagrant install follow these instructions
 
-to start up vagrant, from the root folder
+First go to the volume with the repository
+
+Since I am using it on the ssd remember to change to that volume the command is
+
+    cd /Volumes/Turnstyles
+    
+Then go to the root folder
+    
+    cd discourse
+
+to start up vagrant, from that root folder
 
     vagrant up
 
@@ -23,6 +33,11 @@ then change to the vagrant directory
 migrate the dev database schema to my local repo
 
     bundle exec rake db:migrate
+    
+    
+If you don't have an admin account yet create one before starting the server
+
+    rake admin:create
 
 and finally bring up rails
   
@@ -41,22 +56,5 @@ when done
     exit
     vagrant halt
     
-    
-## If running the script based install just go to the root discourse directory and 
-
-    rails server -b 0.0.0.0 -p 3000 -e development
-    
 Admin is at /admin    
 
-### Evil Backdoor
-If you go to this address you'll log in as eviltrout which you can use to grant your own user admin permissions.
-
-    http://localhost:4000/session/eviltrout/become
-    
-### Another way to create an Admin User (untested)
-
-    bash
-    RAILS_ENV=development bundle exec rails c
-    > u = User.first
-    > u.admin = true
-    > u.save

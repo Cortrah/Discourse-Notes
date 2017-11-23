@@ -6,7 +6,7 @@ Half owners manual and half reference guide for hacking the Discourse open sourc
 
 I've been developing client side software for twenty years now. I've tried a number of times to delve into the server side, but there are a lot of different concerns on the server side than what I'm used to. And I've been pretty disappointed with the quality of instructional materials on how to write server side software. Most material tends to be tutorials that regurgitate toy examples that focus on basic language syntax that would have been easy to figure out anyway. While they don't deal with real api design, testing, security, database issues, caching, hosting or maintenance in any useful way. Faced with that continual disappointment, I decided to go back to the basics and find some source code to read.
 
-Discourse is a real world, well engineered, 100% open source project that attempts to address some high level problems with online discussion. They have many tests, a postgres database and both client and server software that is written with modern practices. It certainly has it's flaws and technical or historical baggage as anything does. But I think that if I get to know this code intimately, warts and all, I'll learn something real.
+Discourse is a real world, well engineered, 100% open source project that attempts to address some high level problems with online discussion. They have many tests, a postgres database and both client and server software that is written with modern practices. 
 
 By hacking Discourse it means that you also have good examples of
 
@@ -20,7 +20,7 @@ By hacking Discourse it means that you also have good examples of
 
 **As a product**
 
-As a product discourse is a good piece of modern software that one can use to host small communities of a few hundred users with a 20 dollar a month Digital Ocean account. Setup is easy, many customization options are included in the admin panel and as it is 100% (GNU GPL) open source, customization is essentially unbounded. The only other forum software that I know of which works well on mobile devices is NodeBB and while that looks promising as well, the Discourse developers have put a lot of thought into the social and admin aspects of their design as well as the technical. In the end I'm really using it as an example of engineering rather than purely as a product, but do hope to learn the strengths and weaknesses of it as a product as a part of this process. I am just glad that there is more than one open source group adresssing this market and that you can host your own community rather than relying on Facebook or some other Heather* outside of your control.
+As a product discourse is a good piece of modern software that one can use to host small communities of a few hundred users with a 20 dollar a month Digital Ocean account. Setup is easy, many customization options are included in the admin panel and as it is 100% (GNU GPL) open source, customization is essentially unbounded. The only other forum software that I know of which works well on mobile devices is NodeBB and while that looks promising as well, the Discourse developers have put a lot of thought into the social and admin aspects of their design as well as the technical. Discourse is certainly more mature and runs a ton of active communities. In the end I'm really using it as an example of engineering rather than purely as a product, but do hope to learn the strengths and weaknesses of it as a product as a part of this process. I am just glad that there is more than one open source group adresssing this market and that you can host your own community rather than relying on Facebook or some other Heather* outside of your control.
 
 I just need a place to organize the information that I gather, even if it's just cutting and pasting from other resources. I'm also going to try and get the local Ruby Brigade users group to work with me as I go through this process in hopes that we can learn more from one another.
 
@@ -44,7 +44,6 @@ Finally even just the process of curating, selecting and editing content is a go
    * [Part Four Git](part_four_git.md)
    * [Part Five Admin Interfaces](part_five_admin_interfaces.md)
    * [Part Six Aceptance Tests](part_six_aceptance_tests.md)
-* [User Documentation Links](user_documentation.md)
 * [Security Notes](security.md)
 * [Testing Notes](testing.md)
 

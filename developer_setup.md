@@ -7,16 +7,18 @@ There are 3 levels of instructions to choose from
 
 I've had good luck with #1 on two computers, havn't tried #2 yet and have had many failed tests with #3 on one computer that I'm working through and learning from.
 
-## 1. Discourse with Vagrant
+This is my slightly modified version of #1
+
+## 1. Discourse with Vagrant (quick start with vagrant)
 
 The following instructions will automatically download and provision a virtual machine for you to begin hacking
 on Discourse with:
 
 ### Getting Started
 
-Since I am using it on the ssd remember 
+Since I am using it on the ssd remember to change to that volume the command is
 
-cd /Volumes/Turnstyles
+    cd /Volumes/Turnstyles
 
 1. Install Git: http://git-scm.com/downloads 
 2. Install VirtualBox: https://www.virtualbox.org/wiki/Downloads
@@ -32,7 +34,7 @@ When you're ready to start working, boot the VM:
 vagrant up
 ```
 
-Vagrant will prompt you for your admin password. This is so it can mount your local files inside the VM for an easy workflow.
+Vagrant may prompt you for your admin password. This is so it can mount your local files inside the VM for an easy workflow.
 
 (The first time you do this, it will take a while as it downloads the VM image and installs it. Go grab a coffee.)
 
@@ -54,6 +56,12 @@ cd /vagrant
 bundle install
 bundle exec rake db:migrate
 ```
+
+### Before starting rails create your admin account
+
+Before starting rails use rake and the rails console to set yourself up as an administrator
+
+    rake admin:create
 
 ### Starting Rails
 
