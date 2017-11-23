@@ -7,7 +7,7 @@ There are 3 levels of instructions to choose from
 
 I've had good luck with #1 on two computers, havn't tried #2 yet and have had many failed tests with #3 on one computer that I'm working through and learning from.
 
-This is my slightly modified version of #1, all three are listed below for future reference
+This is my slightly modified version of #1, all three are included in this diretory for future reference, but this one should be sufficient
 
 ## 1. Discourse with Vagrant (quick start with vagrant)
 
