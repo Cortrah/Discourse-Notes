@@ -67,3 +67,5 @@ mailcatcher --http-ip=0.0.0.0
 ```
    
 Here are some more [details on mailcatcher](mail_catcher.md)
+
+And some [notes on testing](testing.md)

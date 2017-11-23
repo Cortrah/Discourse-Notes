@@ -9,23 +9,32 @@ I've had good luck with #1 on two computers, havn't tried #2 yet and have had ma
 
 This is my slightly modified version of #1, all three are included in this diretory for future reference, but this one should be sufficient
 
-## 1. Discourse with Vagrant (quick start with vagrant)
+## Discourse with Vagrant (quick start with vagrant)
 
 The following instructions will automatically download and provision a virtual machine for you to begin hacking
 on Discourse with:
 
+## Install Prerequisites
+
+1. Install Git: http://git-scm.com/downloads 
+2. Install VirtualBox: https://www.virtualbox.org/wiki/Downloads
+3. Install Vagrant: http://www.vagrantup.com/ (We require Vagrant 1.7.2 or later)
+
 ### Getting Started
+
+Open a terminal
 
 Since I am using it on the ssd (much faster) remember to change to that volume 
 
     cd /Volumes/Turnstyles
 
-1. Install Git: http://git-scm.com/downloads 
-2. Install VirtualBox: https://www.virtualbox.org/wiki/Downloads
-3. Install Vagrant: http://www.vagrantup.com/ (We require Vagrant 1.7.2 or later)
-4. Open a terminal
-5. Clone the project: `git clone https://github.com/discourse/discourse.git`
-6. Enter the project directory: `cd discourse`
+Clone the project: 
+
+    `git clone https://github.com/discourse/discourse.git`
+
+Enter the project directory: 
+
+    `cd discourse`
 
 ### Using Vagrant
 
