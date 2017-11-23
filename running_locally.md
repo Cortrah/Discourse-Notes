@@ -58,3 +58,12 @@ when done
     
 Admin is at /admin    
 
+Remember from the developer setup that Mailcatcher is used to avoid the whole issue of actually sending emails: https://github.com/sj26/mailcatcher
+
+Mailcatcher is already installed in the vm, and there's an alias to launch it:
+
+```
+mailcatcher --http-ip=0.0.0.0
+```
+   
+Here are some more [details on mailcatcher](mail_catcher.md)

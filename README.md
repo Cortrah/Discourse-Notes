@@ -30,8 +30,8 @@ Finally even just the process of curating, selecting and editing content is a go
 
 # Summary
 
-* [Mail Catcher](mail_catcher.md)
 * [Developer Setup](developer_setup.md)
+   * [Mail Catcher](mail_catcher.md)
    * [Quick Start with Vagrant](quick_start_with_vagrant.md)
    * [Custom Vagrant Setup](custom_vagrant_setup.md)
    * [Native OSX Setup from Scratch](native_osx_setup_from_scratch.md)
